@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.container{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 320px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #f7f5f5;
+}
+.result{
+    height: 140px;
+}
+.value{
+    text-align: right;
+    height: 60px;
+    font-size: 20px;
+    padding-top: 20px;
+    margin: 0px 20px;
+    color: #464444;
+}
+.output{
+    /* border: 2px solid red; */
+    text-align: right;
+    height: 60px;
+    margin: 0px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.operator,.number,.empty{
+    height: 50px;
+    margin: 10px;
+    margin-left: 16px;
+    width: 50px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-size: 15px;
+    font: bold;
+    background-color: #f7f5f5;
+}
+
+.operator,.number{
+    cursor: pointer;
+}
+
+.operator:active,.number:active{
+    font-size: 13px;
+}
+.operator{
+    color: rgb(255, 155, 0);
+    font-weight: bolder;
+    font-size: 20px;
+}
+button:nth-child(20){
+    color: white;
+    background-color: rgb(255, 115, 0);
+}
+.number{
+    font-weight: bold;
+}
